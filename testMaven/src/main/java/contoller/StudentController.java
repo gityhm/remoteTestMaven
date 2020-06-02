@@ -17,7 +17,7 @@ public class StudentController {
 	@RequestMapping(value="getAll",method=RequestMethod.GET)
 	public String getAllStudent() {
 		int all = studentService.getAll();
-		
+		//工程未完成
 		
 		return all+"";
 	}
